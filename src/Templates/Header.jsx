@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="lg:flex lg:justify-between border-b text-2xl py-1">
+    <header className="lg:flex lg:justify-between border-b text-2xl py-3">
       <div className="flex justify-between items-center mx-5">
         <div>
           <p>LOGO!</p>
@@ -30,7 +30,7 @@ const Header = () => {
               onClick={closeMenu}
               to="/"
               className={({ isActive }) =>
-                isActive ? "font-semibold" : undefined
+                isActive ? "font-semibold" : "hover:opacity-50"
               }
             >
               Početna
@@ -40,7 +40,7 @@ const Header = () => {
             <NavLink
               onClick={closeMenu}
               className={({ isActive }) =>
-                isActive ? "font-semibold" : undefined
+                isActive ? "font-semibold" : "hover:opacity-50"
               }
               to="/umetnici"
             >
@@ -51,7 +51,7 @@ const Header = () => {
             <NavLink
               onClick={closeMenu}
               className={({ isActive }) =>
-                isActive ? "font-semibold" : undefined
+                isActive ? "font-semibold" : "hover:opacity-50"
               }
               to="/galerija"
             >
@@ -62,7 +62,7 @@ const Header = () => {
             <NavLink
               onClick={closeMenu}
               className={({ isActive }) =>
-                isActive ? "font-semibold" : undefined
+                isActive ? "font-semibold" : "hover:opacity-50"
               }
               to="/kontakt"
             >
@@ -73,7 +73,7 @@ const Header = () => {
             <NavLink
               onClick={closeMenu}
               className={({ isActive }) =>
-                isActive ? "font-semibold" : undefined
+                isActive ? "font-semibold" : "hover:opacity-50"
               }
               to="/me"
             >
