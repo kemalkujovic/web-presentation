@@ -1,6 +1,7 @@
 import React from "react";
 import { data } from "../assets/data";
 import { useParams } from "react-router-dom";
+import Country from "../components/Country";
 const CountryPage = () => {
   const { id } = useParams();
 
@@ -17,10 +18,12 @@ const CountryPage = () => {
   }
 
   return (
-    <div>
-      <p>{country.title}</p>
-      <p>{country.description}</p>
-    </div>
+    <Country
+      title={country.title}
+      descrpiton={country.description}
+      image={country.image}
+      video={country.video}
+    />
   );
 };
 
