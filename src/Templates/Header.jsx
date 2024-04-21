@@ -35,7 +35,7 @@ const Header = () => {
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
             >
-              Početna
+              Home
             </NavLink>
           </li>
           <li>
@@ -66,9 +66,9 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
-              to="/kontakt"
+              to="/contact"
             >
-              Kontakt
+              Contact
             </NavLink>
           </li>
           <li>
@@ -79,7 +79,7 @@ const Header = () => {
               }
               to="/me"
             >
-              O meni
+              About
             </NavLink>
           </li>
         </ul>

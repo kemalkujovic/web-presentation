@@ -16,7 +16,7 @@ function App() {
           element: <HomePage />,
         },
         {
-          path: "/kontakt",
+          path: "/contact",
           element: <ContactPage />,
         },
         { path: "/country/:id", element: <CountryPage /> },
