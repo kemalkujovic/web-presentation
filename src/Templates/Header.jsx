@@ -77,7 +77,7 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
-              to="/me"
+              to="/about"
             >
               About
             </NavLink>

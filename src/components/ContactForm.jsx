@@ -80,7 +80,7 @@ const ContactForm = () => {
     <div className="min-h-screen flex flex-col xl:items-center">
       <form className="xl:w-1/2">
         <h1 className="font-semibold text-2xl text-center my-5">
-          Send a message to us!
+          Send a message to me!
         </h1>
         <div className="flex justify-center flex-col gap-7 mb-5">
           <input

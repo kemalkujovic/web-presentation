@@ -4,6 +4,7 @@ import HomePage from "./Pages/HomePage";
 import ContactPage from "./Pages/ContactPage";
 import Root from "./Pages/Root";
 import CountryPage from "./Pages/CountryPage";
+import AboutPage from "./Pages/AboutPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +19,10 @@ function App() {
         {
           path: "/contact",
           element: <ContactPage />,
+        },
+        {
+          path: "/about",
+          element: <AboutPage />,
         },
         { path: "/country/:id", element: <CountryPage /> },
       ],
