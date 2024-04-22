@@ -1,5 +1,6 @@
 import React from "react";
 import VideoPlayer from "./VidePlayer";
+import FeatureItem from "./FeatureItem";
 
 const Country = ({ title, descrpiton, image, video }) => {
   return (
@@ -7,14 +8,7 @@ const Country = ({ title, descrpiton, image, video }) => {
       <h1 className="font-semibold text-center text-2xl my-5">
         Travel to {title}
       </h1>
-      <div className="flex mx-4 my-3 max-xl:flex-wrap gap-5">
-        <img src={image} alt="" className="w-full" />
-        <div className="flex items-center">
-          <p className="text-xl max-md:text-lg font-serif leading-10">
-            {descrpiton}
-          </p>
-        </div>
-      </div>
+      <FeatureItem descrpiton={descrpiton} image={image} />
       <h1 className="font-semibold text-2xl text-center mx-5">
         Video for {title}
       </h1>
