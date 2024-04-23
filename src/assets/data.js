@@ -1,6 +1,9 @@
 import france from "./france.jpg";
 import indonesia from "./indonesia.jpg";
 import malaysia from "./malaysia.jpg";
+import italy from "./italy.jpg";
+import japan from "./japan.jpg";
+import australia from "./australia.jpg";
 
 export const data = [
   {
@@ -34,5 +37,41 @@ export const data = [
      With its captivating blend of natural beauty, cultural diversity, and culinary delights, Malaysia promises an unforgettable journey filled with enriching experiences at every turn.`,
     image: malaysia,
     video: "mtIeLsMbfzg",
+  },
+  {
+    title: "Japan",
+    description: `Japan, a land of exquisite harmony between tradition and technological innovation. Embark on your journey in vibrant Tokyo, where traditional shrines blend with futuristic skyscrapers. Experience the splendor of Japanese cuisine as you explore numerous restaurants serving sushi, ramen, and tempura. Don't miss visiting ancient Kyoto, home to thousands of temples, gardens, and tea houses. For adventurers, Mount Fuji offers spectacular landscapes and hiking opportunities. Finally, unwind on the shores of Okinawa, a captivating archipelago known for its crystal-clear waters and rich underwater life.`,
+    image: japan,
+    video: "77lWbSfnF_g",
+  },
+  {
+    title: "Italy",
+    description: `Italy, a land of rich history, art, and culinary delights. Begin your journey at the Roman Colosseum, where the past and present intersect at every turn. Discover the charms of Italian cuisine as you indulge in authentic dishes such as pizza, pasta, and gelato. Stroll through the canals of Venice and uncover the romantic corners of this unique city on water. For wine enthusiasts, Tuscany offers unforgettable wine experiences in picturesque vineyards. Conclude your journey on the Amalfi Coast, where rocky cliffs plunge into turquoise waters, creating breathtaking vistas.`,
+    image: italy,
+    video: "zS4AP0Q8L8g",
+  },
+  {
+    title: "Australia",
+    description: `Australia, a continent full of contrasts, from vibrant cities to wild outback landscapes. Start your journey in Sydney, where you'll marvel at the iconic Sydney Opera House and Harbour Bridge. Taste the diversity of Australian cuisine as you explore various restaurants offering local specialties such as barramundi and kangaroo. Embark on an adventure exploring the Great Barrier Reef, one of the world's greatest natural wonders. For nature lovers, Kakadu National Park offers incredible wildlife sightings and ancient Aboriginal art. Finally, relax on the white sandy beaches of the Whitsundays and dive into the turquoise waters of the Coral Sea.`,
+    image: australia,
+    video: "kLuqCtnKr_8",
+  },
+  {
+    title: "Canada",
+    description: `Canada, a vast and diverse country known for its stunning natural landscapes and multicultural cities. Begin your journey in vibrant Toronto, where you can explore iconic landmarks such as the CN Tower and the Royal Ontario Museum. Immerse yourself in the beauty of Banff National Park, where towering mountain peaks, turquoise lakes, and abundant wildlife await. Experience the charm of Quebec City's cobblestone streets and historic architecture, reminiscent of old-world Europe. For outdoor enthusiasts, British Columbia offers endless opportunities for hiking, skiing, and whale watching along its rugged coastline. Conclude your Canadian adventure with a visit to the picturesque coastal villages of Nova Scotia, where you can sample fresh seafood and experience maritime hospitality at its finest.`,
+    image: australia,
+    video: "canada_video_url",
+  },
+  {
+    title: "Malta",
+    description: `Malta, a Mediterranean gem known for its rich history, stunning architecture, and azure waters. Begin your journey in Valletta, the capital city, where you can explore ancient fortresses, baroque churches, and charming narrow streets. Discover the medieval city of Mdina, with its impressive bastions and panoramic views of the island. Don't miss the opportunity to relax on the picturesque beaches of Gozo and Comino, where crystal-clear waters invite you to swim, snorkel, or simply bask in the sun. Experience the vibrant nightlife of St. Julian's and Paceville, where you can dance the night away in lively clubs and bars. Conclude your Maltese adventure with a visit to the UNESCO World Heritage sites of Ħal Saflieni Hypogeum and the Megalithic Temples, which offer fascinating insights into Malta's ancient past.`,
+    image: australia,
+    video: "malta_video_url",
+  },
+  {
+    title: "Thailand",
+    description: `Thailand, a land of tropical beaches, ancient temples, and vibrant culture. Begin your journey in bustling Bangkok, where you can explore ornate temples, bustling markets, and indulgent street food. Discover the ancient city of Ayutthaya, with its impressive ruins and rich history dating back centuries. Don't miss the opportunity to relax on the pristine beaches of Phuket and Koh Samui, where turquoise waters and swaying palm trees await. Experience the unique culture of northern Thailand in Chiang Mai, where you can visit hill tribes, explore lush jungles, and participate in traditional Thai cooking classes. Conclude your Thai adventure with a visit to the serene and spiritual city of Chiang Rai, home to the iconic White Temple and other architectural wonders.`,
+    image: australia,
+    video: "thailand_video_url",
   },
 ];

@@ -44,20 +44,9 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
-              to="/umetnici"
+              to="/countries"
             >
-              Umetnici
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              onClick={closeMenu}
-              className={({ isActive }) =>
-                isActive ? "font-semibold" : "hover:opacity-50"
-              }
-              to="/galerija"
-            >
-              Galerija
+              Countries
             </NavLink>
           </li>
           <li>
