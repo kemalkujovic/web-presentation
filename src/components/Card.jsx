@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Card = ({ title, image, description }) => {
   console.log(description.slice(0, 200));
   return (
-    <div className="border rounded-md flex flex-col p-2">
+    <div className="border rounded-md flex flex-col p-2 justify-between">
       <div className="rounded-md overflow-hidden h-80">
         <img
           src={image}

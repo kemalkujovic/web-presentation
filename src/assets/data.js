@@ -4,8 +4,17 @@ import malaysia from "./malaysia.jpg";
 import italy from "./italy.jpg";
 import japan from "./japan.jpg";
 import australia from "./australia.jpg";
+import malta from "./malta.jpg";
+import canada from "./canada.jpg";
+import thailand from "./thailand.jpg";
 
 export const data = [
+  {
+    title: "Thailand",
+    description: `Thailand, a land of tropical beaches, ancient temples, and vibrant culture. Begin your journey in bustling Bangkok, where you can explore ornate temples, bustling markets, and indulgent street food. Discover the ancient city of Ayutthaya, with its impressive ruins and rich history dating back centuries. Don't miss the opportunity to relax on the pristine beaches of Phuket and Koh Samui, where turquoise waters and swaying palm trees await. Experience the unique culture of northern Thailand in Chiang Mai, where you can visit hill tribes, explore lush jungles, and participate in traditional Thai cooking classes. Conclude your Thai adventure with a visit to the serene and spiritual city of Chiang Rai, home to the iconic White Temple and other architectural wonders.`,
+    image: thailand,
+    video: "MNuWA3BN8oc",
+  },
   {
     title: "France",
     description: `France, a country renowned for its timeless elegance, rich history, and captivating culture. From the romantic streets of Paris to the sun-kissed vineyards of Provence, France offers a myriad of experiences to delight every traveler.
@@ -16,6 +25,12 @@ export const data = [
      Whether you're savoring a croissant in a Parisian café, sipping champagne in the Champagne region, or admiring the stunning vistas of the French Riviera, a trip to France promises unforgettable moments and lifelong memories.`,
     image: france,
     video: "By9miGzVlPs",
+  },
+  {
+    title: "Canada",
+    description: `Canada, a vast and diverse country known for its stunning natural landscapes and multicultural cities. Begin your journey in vibrant Toronto, where you can explore iconic landmarks such as the CN Tower and the Royal Ontario Museum. Immerse yourself in the beauty of Banff National Park, where towering mountain peaks, turquoise lakes, and abundant wildlife await. Experience the charm of Quebec City's cobblestone streets and historic architecture, reminiscent of old-world Europe. For outdoor enthusiasts, British Columbia offers endless opportunities for hiking, skiing, and whale watching along its rugged coastline. Conclude your Canadian adventure with a visit to the picturesque coastal villages of Nova Scotia, where you can sample fresh seafood and experience maritime hospitality at its finest.`,
+    image: canada,
+    video: "_drFdYSVOEA",
   },
   {
     title: "Indonesia",
@@ -57,21 +72,9 @@ export const data = [
     video: "kLuqCtnKr_8",
   },
   {
-    title: "Canada",
-    description: `Canada, a vast and diverse country known for its stunning natural landscapes and multicultural cities. Begin your journey in vibrant Toronto, where you can explore iconic landmarks such as the CN Tower and the Royal Ontario Museum. Immerse yourself in the beauty of Banff National Park, where towering mountain peaks, turquoise lakes, and abundant wildlife await. Experience the charm of Quebec City's cobblestone streets and historic architecture, reminiscent of old-world Europe. For outdoor enthusiasts, British Columbia offers endless opportunities for hiking, skiing, and whale watching along its rugged coastline. Conclude your Canadian adventure with a visit to the picturesque coastal villages of Nova Scotia, where you can sample fresh seafood and experience maritime hospitality at its finest.`,
-    image: australia,
-    video: "canada_video_url",
-  },
-  {
     title: "Malta",
     description: `Malta, a Mediterranean gem known for its rich history, stunning architecture, and azure waters. Begin your journey in Valletta, the capital city, where you can explore ancient fortresses, baroque churches, and charming narrow streets. Discover the medieval city of Mdina, with its impressive bastions and panoramic views of the island. Don't miss the opportunity to relax on the picturesque beaches of Gozo and Comino, where crystal-clear waters invite you to swim, snorkel, or simply bask in the sun. Experience the vibrant nightlife of St. Julian's and Paceville, where you can dance the night away in lively clubs and bars. Conclude your Maltese adventure with a visit to the UNESCO World Heritage sites of Ħal Saflieni Hypogeum and the Megalithic Temples, which offer fascinating insights into Malta's ancient past.`,
-    image: australia,
-    video: "malta_video_url",
-  },
-  {
-    title: "Thailand",
-    description: `Thailand, a land of tropical beaches, ancient temples, and vibrant culture. Begin your journey in bustling Bangkok, where you can explore ornate temples, bustling markets, and indulgent street food. Discover the ancient city of Ayutthaya, with its impressive ruins and rich history dating back centuries. Don't miss the opportunity to relax on the pristine beaches of Phuket and Koh Samui, where turquoise waters and swaying palm trees await. Experience the unique culture of northern Thailand in Chiang Mai, where you can visit hill tribes, explore lush jungles, and participate in traditional Thai cooking classes. Conclude your Thai adventure with a visit to the serene and spiritual city of Chiang Rai, home to the iconic White Temple and other architectural wonders.`,
-    image: australia,
-    video: "thailand_video_url",
+    image: malta,
+    video: "bMTJoTbu3gw",
   },
 ];

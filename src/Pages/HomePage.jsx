@@ -4,6 +4,7 @@ import Card from "../components/Card";
 import { data } from "../assets/data";
 
 import ScrollAnimation from "react-animate-on-scroll";
+import FeedbackCard from "../components/FeedbackCard";
 
 const HomePage = () => {
   const fristThreeCountry = data.slice(0, 3);
@@ -15,9 +16,13 @@ const HomePage = () => {
         Popular Destinations
       </h1>
       <div className="flex max-sm:flex-wrap gap-5 my-10">
-        {fristThreeCountry.map((country) => {
+        {fristThreeCountry.map((country, i) => {
           return (
-            <ScrollAnimation key={country.title} animateIn="fadeIn">
+            <ScrollAnimation
+              animateOnce={true}
+              key={country.title}
+              animateIn="fadeIn"
+            >
               <Card
                 title={country.title}
                 description={country.description}
@@ -27,6 +32,9 @@ const HomePage = () => {
           );
         })}
       </div>
+      <ScrollAnimation animateOnce={true} animateIn="fadeIn">
+        <FeedbackCard />
+      </ScrollAnimation>
     </>
   );
 };
