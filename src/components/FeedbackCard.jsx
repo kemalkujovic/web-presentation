@@ -9,7 +9,7 @@ const FeedbackCard = () => {
   return (
     <>
       <h1 className="text-center font-semibold text-4xl my-20">Ispovesti</h1>
-      <div className="flex mb-20 gap-5 max-sm:flex-wrap font-serif">
+      <div className="flex mb-20 gap-5 max-sm:flex-wrap font-serif justify-between">
         <div className="items-centar flex flex-col items-center gap-3">
           <img src={feedback1} alt="" className="rounded-full w-48" />
           <h1 className="font-semibold text-center">Milica Jovanović</h1>
@@ -18,7 +18,7 @@ const FeedbackCard = () => {
           </p>
           <p className="text-sm text-gray-500 text-center">
             Oduševljena sam! Pronašla sam nekoliko destinacija koje su na mojoj
-            listi želja već duže vreme. Hvala vam na sjajnoj platformi!
+            listi želja već duže vreme.
           </p>
           <div className="flex items-center justify-center text-yellow-400">
             <StarIcon />

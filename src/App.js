@@ -6,6 +6,8 @@ import Root from "./Pages/Root";
 import CountryPage from "./Pages/CountryPage";
 import AboutPage from "./Pages/AboutPage";
 import CountriesPage from "./Pages/CountriesPage";
+import TravelPage from "./Pages/TravelPage";
+import TravelDetailsPage from "./Pages/TravelDetailsPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +30,14 @@ function App() {
         {
           path: "/o-nama",
           element: <AboutPage />,
+        },
+        {
+          path: "/aranzman",
+          element: <TravelPage />,
+        },
+        {
+          path: "/aranzman/:id",
+          element: <TravelDetailsPage />,
         },
         { path: "/zemlje/:id", element: <CountryPage /> },
       ],

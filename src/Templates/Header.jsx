@@ -55,6 +55,17 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
+              to="/aranzman"
+            >
+              Aranžman
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              onClick={closeMenu}
+              className={({ isActive }) =>
+                isActive ? "font-semibold" : "hover:opacity-50"
+              }
               to="/kontakt"
             >
               Kontakt
