@@ -10,70 +10,70 @@ import thailand from "./thailand.jpg";
 
 export const data = [
   {
-    title: "Thailand",
-    description: `Thailand, a land of tropical beaches, ancient temples, and vibrant culture. Begin your journey in bustling Bangkok, where you can explore ornate temples, bustling markets, and indulgent street food. Discover the ancient city of Ayutthaya, with its impressive ruins and rich history dating back centuries. Don't miss the opportunity to relax on the pristine beaches of Phuket and Koh Samui, where turquoise waters and swaying palm trees await. Experience the unique culture of northern Thailand in Chiang Mai, where you can visit hill tribes, explore lush jungles, and participate in traditional Thai cooking classes. Conclude your Thai adventure with a visit to the serene and spiritual city of Chiang Rai, home to the iconic White Temple and other architectural wonders.`,
+    title: "Tajland",
+    description: `Tajland, zemlja tropskih plaža, drevnih hramova i živahne kulture. Započnite svoje putovanje u živopisnom Bangkoku, gde možete istražiti ukrasne hramove, bučne pijace i ukusnu uličnu hranu. Otkrijte drevni grad Ajutaju, sa impresivnim ruševinama i bogatom istorijom koja datira vekovima unazad. Ne propustite priliku da se opustite na neokaljanima plažama Phuketa i Koh Samuija, gde vas čekaju tirkizno plavo more i njihove palmice. Iskusite jedinstvenu kulturu severnog Tajlanda u Chiang Maiju, gde možete posetiti planinska plemena, istražiti bujne džungle i učestvovati u tradicionalnim časovima kuvanja tajlandske hrane. Zaključite svoju tajlandsku avanturu posetom mirnom i duhovnom gradu Chiang Raiju, domu ikoničnog Belog hrama i drugih arhitektonskih čuda.`,
     image: thailand,
     video: "MNuWA3BN8oc",
   },
   {
-    title: "France",
-    description: `France, a country renowned for its timeless elegance, rich history, and captivating culture. From the romantic streets of Paris to the sun-kissed vineyards of Provence, France offers a myriad of experiences to delight every traveler.
-     Begin your adventure in the iconic city of Paris, where you can marvel at world-famous landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and Louvre Museum. Stroll along the charming cobblestone streets of Montmartre, explore the bohemian neighborhoods of Le Marais, and indulge in exquisite French cuisine at quaint bistros and Michelin-starred restaurants.
-     Venture beyond the capital to discover the breathtaking landscapes of the French countryside. Explore the picturesque villages of the Loire Valley, where fairytale castles dot the rolling hillsides, or wander through the lavender fields of Provence, perfumed with the scent of lavender and rosemary.
-     For wine enthusiasts, a visit to the vineyards of Bordeaux or Burgundy is a must, where you can sample world-class wines and learn about the art of winemaking from passionate vintners.
-     Immerse yourself in French art and culture as you visit the charming towns of Avignon, Arles, and Aix-en-Provence, which have inspired countless artists throughout history.
-     Whether you're savoring a croissant in a Parisian café, sipping champagne in the Champagne region, or admiring the stunning vistas of the French Riviera, a trip to France promises unforgettable moments and lifelong memories.`,
+    title: "Francuska",
+    description: `Francuska, zemlja poznata po svojoj bezvremenoj eleganciji, bogatoj istoriji i očaravajućoj kulturi. Od romantičnih ulica Pariza do sunčanih vinograda Provanse, Francuska nudi mnoštvo iskustava koja će oduševiti svakog putnika.
+     Započnite svoju avanturu u ikoničnom gradu Parizu, gde možete diviti se svetski poznatim znamenitostima poput Ajfelovog tornja, Notr-Dam katedrale i Luvra. Prošetajte šarmantnim kaldrmisanim ulicama Montmartrea, istražite boemske kvartove Le Marais i uživajte u izvrsnoj francuskoj kuhinji u slikovitim bistroima i restoranima sa Michelinovim zvezdicama.
+     Proširite svoje vidike izvan glavnog grada kako biste otkrili zadivljujuće pejzaže francuske provincije. Istražite slikovite sela Loare, gde se na brežuljcima nalaze bajkoviti dvorci, ili šetajte kroz lavandine polja Provanse, mirisne lavandom i ruzmarinom.
+     Za ljubitelje vina, poseta vinogradima Bordoa ili Burgundije je obavezna, gde možete degustirati vina svetskog kvaliteta i naučiti o umetnosti pravljenja vina od strastvenih vinara.
+     Uronite u francusku umetnost i kulturu dok posećujete šarmantne gradove Avinjon, Arles i Aix-en-Provence, koji su inspirisali brojne umetnike kroz istoriju.
+     Bez obzira da li uživate u kroasantu u pariskom kafiću, pijete šampanjac u šampanjskoj regiji ili divite se prelepim pogledima na Azurnoj obali, putovanje u Francusku obećava nezaboravne trenutke i uspomene za ceo život.`,
     image: france,
     video: "By9miGzVlPs",
   },
   {
-    title: "Canada",
-    description: `Canada, a vast and diverse country known for its stunning natural landscapes and multicultural cities. Begin your journey in vibrant Toronto, where you can explore iconic landmarks such as the CN Tower and the Royal Ontario Museum. Immerse yourself in the beauty of Banff National Park, where towering mountain peaks, turquoise lakes, and abundant wildlife await. Experience the charm of Quebec City's cobblestone streets and historic architecture, reminiscent of old-world Europe. For outdoor enthusiasts, British Columbia offers endless opportunities for hiking, skiing, and whale watching along its rugged coastline. Conclude your Canadian adventure with a visit to the picturesque coastal villages of Nova Scotia, where you can sample fresh seafood and experience maritime hospitality at its finest.`,
+    title: "Kanada",
+    description: `Kanada, ogromna i raznolika zemlja poznata po svojim zadivljujućim prirodnim pejzažima i multikulturalnim gradovima. Zapocnite svoje putovanje u živopisnom Torontu, gde možete istražiti ikonične znamenitosti poput CN tornja i Kraljevskog ontarijskog muzeja. Uronite u lepotu Nacionalnog parka Banff, gde vas čekaju visoki planinski vrhovi, tirkizna jezera i bogata divljač. Doživite šarm kobelstonskih ulica i istorijske arhitekture grada Kvebeka, koji podseća na staru Evropu. Za ljubitelje prirode, Britanska Kolumbija nudi beskonačne mogućnosti za planinarenje, skijanje i posmatranje kitova duž svoje divlje obale. Zaključite svoju kanadsku avanturu posetom slikovitim obalnim selima Nove Škotske, gde možete probati svežu morsku hranu i doživeti pomorsko gostoprimstvo u najboljem svetlu.`,
     image: canada,
     video: "_drFdYSVOEA",
   },
   {
-    title: "Indonesia",
-    description: `Journey to Indonesia, a land of vibrant cultures, breathtaking landscapes, and warm hospitality. Start your adventure in Bali, known as the Island of the Gods, where lush rice terraces cascade down hillsides and ancient temples stand against a backdrop of azure skies. Explore Ubud, Bali's cultural heart, where traditional dance performances and artisanal crafts await.
-      Next, venture to the pristine shores of the Gili Islands, where powdery white sands meet crystal-clear waters teeming with marine life. Snorkel among colorful coral reefs, lounge in hammocks beneath swaying palms, and witness stunning sunsets that paint the sky in hues of pink and orange.
-      For the ultimate adrenaline rush, head to Lombok and conquer the mighty Mount Rinjani, an active volcano that offers challenging hikes and awe-inspiring vistas from its summit. Then, unwind on the idyllic beaches of the Nusa Islands, where secluded coves and hidden caves beg to be explored.
-      Finally, immerse yourself in the rich cultural tapestry of Yogyakarta, home to the majestic Borobudur and Prambanan temples, UNESCO World Heritage sites that showcase Indonesia's ancient architectural wonders.
-      Whether you are seeking adventure, relaxation, or cultural immersion, Indonesia promises an unforgettable journey filled with unforgettable experiences.`,
+    title: "Indonezija",
+    description: `Putovanje u Indoneziju, zemlju živopisnih kultura, zadivljujućih pejzaža i tople gostoljubivosti. Zapocnite svoju avanturu na Baliju, poznatom kao Ostrvo Bogova, gde se bujni terasi sa pirinčem spuštaju niz padine, a drevni hramovi stoje pred pozadinom azurnog neba. Istražite Ubud, kulturno srce Balija, gde vas čekaju tradicionalni plesni performansi i umetničke zanatske radnje.
+      Zatim se uputite na netaknute obale Gili ostrva, gde se beli pesak sastaje sa kristalno čistim vodama prepunim morskog života. Ronite među šarenim koralnim grebenima, odmarajte se u hamakima ispod ljuljajućih palmi i gledajte zadivljujuće zalaske sunca koji nežno obojavaju nebo u nijansama roze i narandžaste boje.
+      Za ultimativni adrenalinski šok, posetite Lombok i osvojite moćni planinu Rinjani, aktivni vulkan koji nudi izazovne pešačke staze i zadivljujuće poglede sa svojeg vrha. Zatim se opustite na idiličnim plažama Nusa ostrva, gde vas čekaju skriveni zaliv i pećine koje treba istražiti.
+      Na kraju, uronite u bogatu kulturnu tapiseriju Jogjakarte, doma veličanstvenih hramova Borobudura i Prambanana, UNESCO-ve svetske baštine koja prikazuje drevna arhitektonska čuda Indonezije.
+      Bez obzira da li tražite avanturu, opuštanje ili kulturno uranjanje, Indonezija obećava nezaboravno putovanje ispunjeno nezaboravnim iskustvima.`,
     image: indonesia,
     video: "JeUJC4d5cVY",
   },
   {
-    title: "Malaysia",
-    description: `Malaysia, a land of diverse landscapes, rich heritage, and culinary delights. Begin your journey in Kuala Lumpur, the dynamic capital city where towering skyscrapers, including the iconic Petronas Twin Towers, contrast with vibrant street markets and historic temples.
-     Delve into the culinary wonders of Malaysia as you sample mouthwatering dishes from diverse cultures, including Malay, Chinese, and Indian cuisines. Don't miss the opportunity to explore the bustling night markets of Penang and indulge in local favorites like char kway teow and nasi kandar.
-     Venture into the lush rainforests of Malaysian Borneo, home to endangered orangutans, playful proboscis monkeys, and a myriad of other wildlife species. Embark on a river safari along the Kinabatangan River, where you can spot exotic birds, crocodiles, and elusive pygmy elephants.
-     For a dose of cultural immersion, visit the historic city of Melaka, a UNESCO World Heritage site renowned for its well-preserved colonial architecture, vibrant street art, and multicultural heritage.
-     Conclude your Malaysian adventure with a relaxing island getaway to Langkawi or the Perhentian Islands, where pristine beaches, turquoise waters, and spectacular diving and snorkeling opportunities await.
-     With its captivating blend of natural beauty, cultural diversity, and culinary delights, Malaysia promises an unforgettable journey filled with enriching experiences at every turn.`,
+    title: "Malezija",
+    description: `Malezija, zemlja raznolikih pejzaža, bogate baštine i kulinarskih užitaka. Zapocnite svoje putovanje u Kuala Lumpuru, dinamičnom glavnom gradu gde visoki neboderi, uključujući i ikonične Petronas Twin Towers, kontrastiraju sa živopisnim uličnim pijacama i istorijskim hramovima.
+     Istražite kulinarska čuda Malezije dok probate ukusna jela različitih kultura, uključujući malajsku, kinesku i indijsku kuhinju. Ne propustite priliku da istražite bučne noćne pijace Penanga i uživate u lokalnim omiljenim jelima poput char kway teowa i nasi kandara.
+     Upustite se u bujne prašume malezijskog Bornea, domu ugroženih orangutana, veselih proboskis majmuna i raznih drugih vrsta divljih životinja. Krenite na rečnu safari avanturu duž reke Kinabatangan, gde možete videti egzotične ptice, krokodile i neuhvatljive pigmajske slonove.
+     Za dozu kulturnog uranjanja, posetite istorijski grad Melaku, UNESCO-vu svetsku baštinu poznatu po dobro očuvanoj kolonijalnoj arhitekturi, živopisnom uličnom umetnošću i multikulturalnoj baštini.
+     Zaključite svoju malezijsku avanturu opuštajućim odmorom na ostrvima Langkawi ili Perhentian, gde vas čekaju neokaljane plaže, tirkizno plavo more i spektakularne mogućnosti za ronjenje i snorkling.
+     Sa svojim očaravajućim spojem prirodne lepote, kulturne raznolikosti i kulinarskih užitaka, Malezija obećava nezaboravno putovanje ispunjeno obogaćujućim iskustvima na svakom koraku.`,
     image: malaysia,
     video: "mtIeLsMbfzg",
   },
   {
     title: "Japan",
-    description: `Japan, a land of exquisite harmony between tradition and technological innovation. Embark on your journey in vibrant Tokyo, where traditional shrines blend with futuristic skyscrapers. Experience the splendor of Japanese cuisine as you explore numerous restaurants serving sushi, ramen, and tempura. Don't miss visiting ancient Kyoto, home to thousands of temples, gardens, and tea houses. For adventurers, Mount Fuji offers spectacular landscapes and hiking opportunities. Finally, unwind on the shores of Okinawa, a captivating archipelago known for its crystal-clear waters and rich underwater life.`,
+    description: `Japan, zemlja izvanredne harmonije između tradicije i tehnološke inovacije. Krenite na putovanje u živahni Tokio, gde se tradicionalni hramovi stapaju sa futurističkim neboderima. Doživite sjaj japanske kuhinje dok istražujete brojne restorane koji služe suši, ramen i tempuru. Ne propustite posetu drevnom Kjotu, domu hiljada hramova, vrtova i čajnih kuća. Za avanturiste, planina Fuji nudi spektakularne pejzaže i mogućnosti za planinarenje. Na kraju, opustite se na obalama Okinawe, fascinantnom arhipelagu poznatom po kristalno čistim vodama i bogatom podvodnom životu.`,
     image: japan,
     video: "77lWbSfnF_g",
   },
   {
-    title: "Italy",
-    description: `Italy, a land of rich history, art, and culinary delights. Begin your journey at the Roman Colosseum, where the past and present intersect at every turn. Discover the charms of Italian cuisine as you indulge in authentic dishes such as pizza, pasta, and gelato. Stroll through the canals of Venice and uncover the romantic corners of this unique city on water. For wine enthusiasts, Tuscany offers unforgettable wine experiences in picturesque vineyards. Conclude your journey on the Amalfi Coast, where rocky cliffs plunge into turquoise waters, creating breathtaking vistas.`,
+    title: "Italija",
+    description: `Italija, zemlja bogate istorije, umetnosti i kulinarskih užitaka. Zapocnite svoje putovanje na rimskom Koloseumu, gde se prošlost i sadašnjost sudaraju na svakom koraku. Otkrijte čari italijanske kuhinje dok uživate u autentičnim jelima poput pice, paste i želata. Prošetajte kanalima Venecije i otkrijte romantične delove ovog jedinstvenog grada na vodi. Za ljubitelje vina, Toskana nudi nezaboravna vinska iskustva u slikovitim vinogradima. Zaključite svoje putovanje na Amalfi obali, gde se stene strmoglave u tirkizno more, stvarajući zadivljujuće poglede.`,
     image: italy,
     video: "zS4AP0Q8L8g",
   },
   {
-    title: "Australia",
-    description: `Australia, a continent full of contrasts, from vibrant cities to wild outback landscapes. Start your journey in Sydney, where you'll marvel at the iconic Sydney Opera House and Harbour Bridge. Taste the diversity of Australian cuisine as you explore various restaurants offering local specialties such as barramundi and kangaroo. Embark on an adventure exploring the Great Barrier Reef, one of the world's greatest natural wonders. For nature lovers, Kakadu National Park offers incredible wildlife sightings and ancient Aboriginal art. Finally, relax on the white sandy beaches of the Whitsundays and dive into the turquoise waters of the Coral Sea.`,
+    title: "Australija",
+    description: `Australija, kontinent pun kontrasta, od živopisnih gradova do divljih pejzaža unutrašnjosti. Zapocnite svoje putovanje u Sidneju, gde ćete se diviti ikoničnoj Sidnejskoj operi i mostu preko luke. Okusite raznovrsnost australijske kuhinje dok istražujete različite restorane koji nude lokalne specijalitete poput barramundija i kengura. Krenite na avanturu istraživanja Velikog koralnog grebena, jednog od najvećih prirodnih čuda sveta. Za ljubitelje prirode, Nacionalni park Kakadu nudi neverovatna posmatranja divljih životinja i drevne aboridžinske umetnosti. Na kraju, opustite se na belim peščanim plažama Vitsandejsa i zaronite u tirkizne vode Koralskog mora.`,
     image: australia,
     video: "kLuqCtnKr_8",
   },
   {
     title: "Malta",
-    description: `Malta, a Mediterranean gem known for its rich history, stunning architecture, and azure waters. Begin your journey in Valletta, the capital city, where you can explore ancient fortresses, baroque churches, and charming narrow streets. Discover the medieval city of Mdina, with its impressive bastions and panoramic views of the island. Don't miss the opportunity to relax on the picturesque beaches of Gozo and Comino, where crystal-clear waters invite you to swim, snorkel, or simply bask in the sun. Experience the vibrant nightlife of St. Julian's and Paceville, where you can dance the night away in lively clubs and bars. Conclude your Maltese adventure with a visit to the UNESCO World Heritage sites of Ħal Saflieni Hypogeum and the Megalithic Temples, which offer fascinating insights into Malta's ancient past.`,
+    description: `Malta, mediteranski dragulj poznat po bogatoj istoriji, zadivljujućoj arhitekturi i azurnim vodama. Zapocnite svoje putovanje u Valletti, glavnom gradu, gde možete istražiti drevne tvrđave, barokne crkve i šarmantne uske ulice. Otkrijte srednjovekovni grad Mdina, sa impresivnim bastionima i panoramskim pogledima na ostrvo. Ne propustite priliku da se opustite na slikovitim plažama Goza i Comina, gde vas kristalno čiste vode pozivaju da plivate, ronite ili jednostavno uživate na suncu. Doživite živahni noćni život St. Juliansa i Pacevillea, gde možete plesati do kasnih sati u živim klubovima i barovima. Zaključite svoju maltešku avanturu posetom UNESCO-voj svetskoj baštini Ħal Saflieni Hypogeum i Megalitskim hramovima, koji pružaju fascinantne uvide u drevnu prošlost Malte.`,
     image: malta,
     video: "bMTJoTbu3gw",
   },

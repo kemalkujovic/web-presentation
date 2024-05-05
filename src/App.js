@@ -18,18 +18,18 @@ function App() {
           element: <HomePage />,
         },
         {
-          path: "/countries",
+          path: "/zemlje",
           element: <CountriesPage />,
         },
         {
-          path: "/contact",
+          path: "/kontakt",
           element: <ContactPage />,
         },
         {
-          path: "/about",
+          path: "/o-nama",
           element: <AboutPage />,
         },
-        { path: "/country/:id", element: <CountryPage /> },
+        { path: "/zemlje/:id", element: <CountryPage /> },
       ],
     },
   ]);

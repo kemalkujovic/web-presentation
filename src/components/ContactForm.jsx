@@ -26,16 +26,16 @@ const ContactForm = () => {
     setForm({ ...form, [name]: value });
 
     if (name === "name" && value.length < 2) {
-      setErrors({ ...errors, name: "Name must have at least 2 characters" });
+      setErrors({ ...errors, name: "Ime mora imati barem 2 karaktera" });
     } else if (name === "subject" && value.length < 3) {
       setErrors({
         ...errors,
-        subject: "Subject must have at least 3 characters",
+        subject: "Naslov mora imati barem 3 karaktera",
       });
     } else if (name === "message" && value.length < 5) {
       setErrors({
         ...errors,
-        message: "Message must have at least 5 characters",
+        message: "Poruka mora imati barem 5 karaktera",
       });
     } else {
       setErrors({ ...errors, [name]: "" });
@@ -45,7 +45,7 @@ const ContactForm = () => {
   const handleForm = (e) => {
     e.preventDefault();
     if (!validateEmail(form.email)) {
-      setErrors({ ...errors, email: "Please enter a valid email address" });
+      setErrors({ ...errors, email: "Molimo unesite validnu email adresu" });
       return;
     }
 
@@ -80,14 +80,14 @@ const ContactForm = () => {
     <div className="min-h-screen flex flex-col xl:items-center">
       <form className="xl:w-1/2">
         <h1 className="font-semibold text-2xl text-center my-5">
-          Send a message to me!
+          Pošalji mi poruku!
         </h1>
         <div className="flex justify-center flex-col gap-7 mb-5">
           <input
             type="text"
             name="name"
             required
-            placeholder="Name"
+            placeholder="Ime"
             className="border rounded-md p-3 border-slate-800"
             value={form.name}
             onChange={handleInputChange}
@@ -107,7 +107,7 @@ const ContactForm = () => {
             type="text"
             name="subject"
             required
-            placeholder="Subject"
+            placeholder="Naslov"
             className="border rounded-md p-3 border-slate-800"
             value={form.subject}
             onChange={handleInputChange}
@@ -119,7 +119,7 @@ const ContactForm = () => {
             rows="6"
             cols="20"
             required
-            placeholder="Message"
+            placeholder="Poruka"
             className="border rounded-md p-3 border-slate-800"
             value={form.message}
             onChange={handleInputChange}
@@ -131,7 +131,7 @@ const ContactForm = () => {
           className="border text-white p-3 bg-black rounded-md font-serif w-full"
           onClick={handleForm}
         >
-          Send Message
+          Pošalji poruku
         </button>
       </form>
       {showModal && (
@@ -139,17 +139,15 @@ const ContactForm = () => {
           <div className="flex items-center justify-center">
             <div className="bg-blue-500 p-8 rounded shadow-lg">
               <p className="text-xl font-semibold mb-4 text-white">
-                Thank you!
+                Hvala vam!
               </p>
-              <p className="text-white">
-                Your message has been sent successfully.
-              </p>
+              <p className="text-white">Vaša poruka je uspešno poslata.</p>
               <div className="flex items-center justify-center w-full">
                 <button
                   onClick={closeModal}
                   className="bg-gray-200 hover:bg-gray-100 text-lg font-semibold px-6 py-4 my-2 rounded-lg shadow-md w-full"
                 >
-                  Close
+                  Zatvori
                 </button>
               </div>
             </div>

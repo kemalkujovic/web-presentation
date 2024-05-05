@@ -8,18 +8,17 @@ import feedback3 from "../assets/feedback3.png";
 const FeedbackCard = () => {
   return (
     <>
-      <h1 className="text-center font-semibold text-4xl my-20">Testimonials</h1>
+      <h1 className="text-center font-semibold text-4xl my-20">Ispovesti</h1>
       <div className="flex mb-20 gap-5 max-sm:flex-wrap font-serif">
         <div className="items-centar flex flex-col items-center gap-3">
           <img src={feedback1} alt="" className="rounded-full w-48" />
-          <h1 className="font-semibold text-center">Maria Smantha</h1>
+          <h1 className="font-semibold text-center">Milica Jovanović</h1>
           <p className="text-blue-500 font-semibold text-center">
-            Travel Enthusiast
+            Ljubitelj Putovanja
           </p>
           <p className="text-sm text-gray-500 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident,
-            iste quibusdam? Ratione accusamus commodi eligendi harum quis
-            quaerat fuga non.
+            Oduševljena sam! Pronašla sam nekoliko destinacija koje su na mojoj
+            listi želja već duže vreme. Hvala vam na sjajnoj platformi!
           </p>
           <div className="flex items-center justify-center text-yellow-400">
             <StarIcon />
@@ -31,14 +30,11 @@ const FeedbackCard = () => {
         </div>
         <div className="items-centar flex flex-col items-center gap-3">
           <img src={feedback2} alt="" className="rounded-full w-48" />
-          <h1 className="font-semibold text-center">Lisa Cudrow</h1>
-          <p className="text-blue-500 font-semibold text-center">
-            Web Developer
-          </p>
+          <h1 className="font-semibold text-center">Ana Marković</h1>
+          <p className="text-blue-500 font-semibold text-center">Avanturista</p>
           <p className="text-sm text-gray-500 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            expedita sequi libero sit officia asperiores facilis ratione facere
-            quibusdam in!
+            Sajt je sjajan! Jako mi se dopada dizajn i funkcionalnost.
+            Definitivno ću ga preporučiti svojim prijateljima!
           </p>
           <div className="flex items-center justify-center text-yellow-400">
             <StarIcon />
@@ -50,14 +46,11 @@ const FeedbackCard = () => {
         </div>
         <div className="items-centar flex flex-col items-center gap-3">
           <img src={feedback3} alt="" className="rounded-full w-48" />
-          <h1 className="font-semibold text-center">John Smith</h1>
-          <p className="text-blue-500 font-semibold text-center">
-            Travel Enthusiast
-          </p>
+          <h1 className="font-semibold text-center">Jovan Petrović</h1>
+          <p className="text-blue-500 font-semibold text-center">Avanturista</p>
           <p className="text-sm text-gray-500 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non
-            quo fugit dignissimos consectetur minima quas autem dolore possimus
-            natus.
+            Fantastičan sajt! Pronašao sam inspiraciju za svoje sledeće
+            putovanje. Hvala vam na divnim idejama!
           </p>
           <div className="flex items-center justify-center text-yellow-400">
             <StarIcon />

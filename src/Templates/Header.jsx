@@ -35,7 +35,7 @@ const Header = () => {
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
             >
-              Home
+              Početna
             </NavLink>
           </li>
           <li>
@@ -44,9 +44,9 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
-              to="/countries"
+              to="/zemlje"
             >
-              Countries
+              Zemlje
             </NavLink>
           </li>
           <li>
@@ -55,9 +55,9 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
-              to="/contact"
+              to="/kontakt"
             >
-              Contact
+              Kontakt
             </NavLink>
           </li>
           <li>
@@ -66,9 +66,9 @@ const Header = () => {
               className={({ isActive }) =>
                 isActive ? "font-semibold" : "hover:opacity-50"
               }
-              to="/about"
+              to="/o-nama"
             >
-              About
+              O nama
             </NavLink>
           </li>
         </ul>

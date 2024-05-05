@@ -13,7 +13,7 @@ const HomePage = () => {
     <>
       <Hero />
       <h1 className="font-semibold text-4xl my-14 text-center font-serif md:text-6xl">
-        Popular Destinations
+        Popularne destinacije
       </h1>
       <div className="flex max-sm:flex-wrap gap-5 my-10">
         {fristThreeCountry.map((country, i) => {
